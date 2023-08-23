@@ -27,4 +27,5 @@ def print_frequency(frequency_dict: dict) -> None:
     for char in frequency_dict.keys():
         print(char + ':' + str(frequency_dict[char]/total))
 
-print_frequency(count_frequency('ATCTGACGCGCGCCGC'))
+if __name__ == '__main__':
+    print_frequency(count_frequency('ATCTGACGCGCGCCGC'))
